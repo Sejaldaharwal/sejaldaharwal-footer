@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+footer {
+    margin-top: 15%;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+}
+a{
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+}
+li{
+    list-style: none;
+}
+.footer-area {
+   
+    border-top: 2px solid rgba(14, 15, 14, 0.1);
+   
+
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4%;
+
+   ul{
+    display: flex;
+    gap: 4%;
+
+   }
+   .logo{
+    img{
+        width: 50%;
+    }
+   }
+}
+.search-baar{
+    position: relative;
+    margin-right: 15%;
+    
+    input {
+        font-size: 16px;
+        background: transparent;
+        border: none;
+        border: 1px solid rgb(0 0 0 / 10%);
+        padding: 10px;
+        width: 70vh;
+        height: 50px;
+        font-size: 14px;
+        font-style: normal;
+    
+    }
+    button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 10px;
+        height: 50px;
+        width: 20vh;
+        border: none;
+        background-color: rgb(253, 176, 64);
+        font-size: 14px;
+        font-weight: 500px;
+    
+    }
+
+}
+.search-baar button:hover {
+    background-color: transparent;
+    border: rgb(253, 176, 64) 2px solid;
+    color: rgb(253, 176, 64);
+}
+
+.social-icon i {
+    height: 40px;
+    width: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgb(253, 176, 64);
+   
+}
+.social-icon i:hover {
+    color: #fff;
+    background-color: rgb(253, 176, 64);
+}
+
+
+
+
+
+.sub-list{
+    margin-top: 3%;
+   ul{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+
+   }
+}
+.sub-list ul a:hover {
+    color: rgb(253, 176, 64);
+
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6%;
+    ul{
+        display: flex;
+    }
+    p{
+        padding: 1rem;
+        margin-top: 40px;
+   
+    }
+}
+.icon-img {
+    padding: 1rem;
+    margin-top: 40px;
+   
+    img {
+        width: 38px;
+        height: 24px;
+        margin-right: 20px;
+        border: 2px solid rgba(0, 0, 0, 10%);
+        border-radius: 4px;
+    }
+}
+.footer-bottom {
+    
+    border-top: 2px solid rgba(14, 15, 14, 0.1);
+  
+
+}
